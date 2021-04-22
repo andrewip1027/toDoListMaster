@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" media="screen" />
+    </head>
+
+<script src="tasker.js"></script>
+
+<body onload="tasker.construct();">
+
+<div id="tasker" class="tasker">
+
+        <!-- Error Message -->
+        <div id="error" class="error">Please  enter a task</div>
+
+            <div id="tasker-header" class="tasker-header">
+              <p role="img" aria-label="hamburger">🍔</p>
+
+                <!-- 1. Input text field -->
+                <input type="text" id="input-task" placeholder="Enter a task">
+
+                <!-- 2. Add button -->
+                <button id="add-task-btn"><i class="fa fa-fw fa-plus"></i></button>
+
+            </div>
+
+            <div class="tasker-body">
+            <!-- 3. Task list -->
+              <ul id="tasks">
+                <!-- `<li>
+                  <button>adfojdsn</button>
+                  <input type="checkBox">
+                  <button><i class="fa fa-fw fa-trash"></i></button>
+                  <ul>
+                    <button><i class="fa fa-fw fa-plus"></i></button>
+                    <input type="text" id="input-task" placeholder="Enter a task">
+                    <li>abc</li>
+                  <ul>
+                </li>
+                <li>
+                  <input type="checkBox">
+                  asd2
+                  <button><i class="fas fa-trash"></i></button>
+                </li>` -->
+              </ul>
+            </div>
+        </div>
+    </body>
+</html>
